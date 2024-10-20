@@ -1,0 +1,27 @@
+.btn2{
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.container2{
+
+    width: 600px;
+    height: 500px;
+    background-color:transparent;
+    margin-top: 10px;
+    position:absolute;
+    z-index: 1;
+    top: 10px;
+    margin-left: 400px;
+    background-color: rgb(195, 222, 213);
+  background-color: transparent;
+        
+}
