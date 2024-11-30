@@ -2,6 +2,7 @@
 
     height: 100%;
     width: 100%;
+  
                    
 }
 .label{
@@ -22,13 +23,19 @@
 }
 .container{
 
-    width: 700px;
-    height: 600px;
-    background-color:transparent;
-    margin-top: 10px;
+    width: 650px;
+    height: 560px;
+    margin-top: 3px;
     position:absolute;
     z-index: 1;
     top: 10px;
+    margin-left: 25%; 
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
         
 }
 .f1{
@@ -37,15 +44,15 @@
 }
 .btn1{
 
-    height: 50px;
-    width: 150px;
-    background-color: green;
+    height: 40px;
+    width: 130px;
+    background-color:rgb(29, 29, 231);
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 250px;
-    margin-top: 25px;
+    margin-bottom: 20px;
     border-radius: 8px;
 
 }
@@ -56,4 +63,5 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow-y: hidden;
 }
